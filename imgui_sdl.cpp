@@ -1,10 +1,6 @@
 #include "imgui_sdl.h"
 
-#if JT_ENABLE_WEB
 #include <SDL2/SDL.h>
-#else
-#include <SDL.h>
-#endif
 
 #include "imgui.h"
 
