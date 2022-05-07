@@ -1,6 +1,10 @@
 #include "imgui_sdl.h"
 
+#if __APPLE__
+#include <SDL.h>
+#else
 #include <SDL2/SDL.h>
+#endif
 
 #include "imgui.h"
 
